@@ -7,7 +7,7 @@
 }
 
 .container {
-    width: 1252px; /**ZMIENIC NA 1352!!!!!!**/
+    max-width: 1252px; /**ZMIENIC NA 1352!!!!!!**/
     margin: 0 auto;
 }
 
@@ -101,6 +101,7 @@
     color: #FFFFFF;
     padding: 22px 157px;
     border-radius: 40px;
+    box-shadow: 5px 10px 14px #07ACE629;
     position: absolute;
     top: 159px;
     left: 455px;
@@ -116,8 +117,87 @@
 /**STATISTICS**//**STATISTICS**//**STATISTICS**/
 
 .statistics {
-    border: var(--check);
     height: 531px;
+
 }
+
+.stat-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.stat-text {
+    padding: 100px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1000px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 176px;
+}
+
+.circle {
+    width: 62.71px;
+    height: 62.71px;
+    border-radius: 50%;
+    margin-bottom: 13px;
+}
+
+.circle-red {
+    background: #FB3B64;
+}
+
+
+.circle-blue {
+    background: #08A6E4;
+}
+
+.circle-green {
+    background: #55DFB4;
+}
+
+.stat-number {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 5.96px;
+    color: #000000;
+    margin-bottom: 19px;
+}
+
+.stat-name {
+    font-family: "Raleway", sans-serif;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #A5A5A5;
+    height: 48px;
+}
+
+/**BENEFITS**//**BENEFITS**//**BENEFITS**/
+/
+
+
+
+
+
 
 
