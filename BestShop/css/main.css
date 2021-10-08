@@ -466,6 +466,13 @@ textarea {
   margin-bottom: 20px;
   color: #000000;
 }
+@media only screen and (max-width: 480px) {
+  .op-sec-header {
+    font-size: 38px;
+    line-height: 44px;
+    margin-bottom: 16px;
+  }
+}
 
 .op-sec-text {
   font-family: "Open Sans", sans-serif;
@@ -475,6 +482,13 @@ textarea {
   color: #000000;
   margin-bottom: 38px;
 }
+@media only screen and (max-width: 480px) {
+  .op-sec-text {
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 30px;
+  }
+}
 
 .btn-op {
   border: none;
@@ -482,6 +496,16 @@ textarea {
   border-radius: 40px;
   box-shadow: 5px 10px 14px #07ACE629;
   padding: 22px 157px;
+}
+@media only screen and (max-width: 480px) {
+  .btn-op {
+    padding: 18px 80px;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .btn-op {
+    padding: 18px 50px;
+  }
 }
 
 .cta-btn {
