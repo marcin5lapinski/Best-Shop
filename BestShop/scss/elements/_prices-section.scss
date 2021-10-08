@@ -32,7 +32,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 1px solid #FB3B64FF;
+  border: 1px solid $color-reddish;
 }
 
 .pricing__details {
@@ -49,10 +49,10 @@
 
 .pricing__price {
   font-size: 2.875rem;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-open-sans;
   font-weight: 300;
   margin-top: 25px;
-  color: #FB3B64FF;
+  color: $color-reddish;
 }
 
 .pricing__limited {
@@ -65,11 +65,14 @@
 
 .pricing__items {
   text-align: center;
+
 }
 
 .pricing__item {
-  font-size: 14px;
   margin-bottom: 20px;
+  font-family: $font-open-sans;
+  font-size: 14px;
+  font-weight: 400;
 }
 
 .pricing__item::before {
@@ -88,7 +91,7 @@
   position: relative;
   bottom: -25px;
   font-size: 0.8125rem;
-  background: #FB3B64FF;
+  background: $color-reddish;
 }
 
 .pricing__box--basic .pricing__price {
@@ -111,7 +114,7 @@
 }
 
 .pricing__box--premium {
-  border-color: #55DFB4;
+  border-color: $color-secondary;
 }
 
 .btn {
@@ -126,8 +129,20 @@
 
 .pricing__box a.btn--prof {
   background: #009bd4;
+  font-family: $font-open-sans;
+  font-size: 13px;
+  font-weight: 700;
 }
 
 .pricing__box a.btn--premium {
-  background: #55DFB4;
+  background: $color-secondary;
+  font-family: $font-open-sans;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.btn-pricing {
+  font-family: $font-open-sans;
+  font-size: 13px;
+  font-weight: 700;
 }

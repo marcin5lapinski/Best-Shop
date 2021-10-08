@@ -4,7 +4,7 @@
 }
 
 .op-sec-header {
-  font-family: "Raleway", sans-serif;
+  font-family: $font-raleway;
   font-weight: 400;
   font-size: 49px;
   line-height: 57px;
@@ -13,7 +13,7 @@
 }
 
 .op-sec-text {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-open-sans;
   font-weight: 400;
   font-size: 16px;
   line-height: 22px;
@@ -23,14 +23,14 @@
 
 .btn-op {
   border: none;
-  background: #08A6E4;
+  background: $color-primary;
   border-radius: 40px;
   box-shadow: 5px 10px 14px #07ACE629;
   padding: 22px 157px;
 }
 
 .cta-btn {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-open-sans;
   font-weight: 600;
   font-size: 16px;
   line-height: 22px;

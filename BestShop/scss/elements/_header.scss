@@ -15,17 +15,17 @@
 }
 
 .nav-logo {
-  font-family: "Raleway", sans-serif;
+  font-family: $font-raleway;
   font-size: 32px;
   line-height: 37px;
   font-weight: 300;
-  color: #08A6E4;
+  color: $color-primary;
 }
 
 .menu-list {
   display: flex;
   list-style: none;
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-open-sans;
   font-weight: 600;
 }
 
@@ -43,5 +43,5 @@
 }
 
 .menu-link:hover {
-  border-bottom: 4px solid #08A6E4;
+  border-bottom: 4px solid $color-primary;
 }

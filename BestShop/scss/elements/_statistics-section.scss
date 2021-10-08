@@ -11,7 +11,7 @@
 
 .stat-text {
   padding: 100px;
-  font-family: "Raleway", sans-serif;
+  font-family: $font-raleway;
   font-weight: 400;
   font-size: 36px;
   line-height: 42px;
@@ -40,7 +40,7 @@
 }
 
 .circle-red {
-  background: #FB3B64;
+  background: $color-reddish;
   position: relative;
 }
 
@@ -53,7 +53,7 @@
 
 
 .circle-blue {
-  background: #08A6E4;
+  background: $color-primary;
   position: relative;
 }
 
@@ -66,7 +66,7 @@
 }
 
 .circle-green {
-  background: #55DFB4;
+  background: $color-secondary;
   position: relative;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .stat-number {
-  font-family: "Raleway", sans-serif;
+  font-family: $font-raleway;
   font-size: 20px;
   font-weight: 700;
   line-height: 24px;
@@ -89,7 +89,7 @@
 }
 
 .stat-name {
-  font-family: "Raleway", sans-serif;
+  font-family: $font-raleway;
   font-size: 17px;
   font-weight: 400;
   line-height: 20px;

@@ -26,20 +26,20 @@
   content: "";
   width: 332px;
   height: 4px;
-  background-color: #FB3B64;
+  background-color: $color-reddish;
   display: block;
   margin-top: 50px;
 }
 
 .benefits__title {
-  font-family: "Raleway", sans-serif;
+  font-family: $font-raleway;
   font-size: 36px;
   line-height: 42px;
   margin-bottom: 30px;
 }
 
 .benefits__description {
-  font-family: "Open Sans", sans-serif;
+  font-family: $font-open-sans;
   font-size: 16px;
   line-height: 22px;
   margin-bottom: 50px;
@@ -79,7 +79,7 @@
   position:absolute;
   width: 180px;
   height: 180px;
-  background: #FB3B64;
+  background: $color-reddish;
   right: 0;
   top: -40px;
   transform: rotate(45deg);
@@ -95,7 +95,7 @@
   content: "";
   width: 332px;
   height: 4px;
-  background-color: #08A6E4;
+  background: $color-primary;
   display: block;
   margin-top: 50px;
 }
@@ -138,7 +138,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background: #55DFB4;
+  background: $color-secondary;
   margin-left: 60px;
 }
 
@@ -152,7 +152,7 @@
   content: "";
   width: 332px;
   height: 4px;
-  background-color: #55DFB4;
+  background-color: $color-secondary;
   display: block;
   margin-top: 50px;
 }
