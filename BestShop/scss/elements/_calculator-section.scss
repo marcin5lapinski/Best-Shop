@@ -75,12 +75,14 @@
       &::after {
         content: "";
         background-image: url("../../assets/Arrow.png");
+        background-size: cover;
+        background-position: center;
         width: 22px;
         height: 22px;
         display: block;
         position: absolute;
-        right: 14px;
-        top: 9px;
+        right: 7px;
+        top: 8px;
       }
     }
 
