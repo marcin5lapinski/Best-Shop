@@ -254,15 +254,6 @@
     margin-bottom: 50px;
 }
 
-.benefits__image {
-    position: relative;
-}
-
-.benefits__image img {
-    position: relative;
-    z-index: 2;
-}
-
 .benefits__single-notebook .benefits__image {
     margin-right: 117px;
     margin-bottom: 38px;

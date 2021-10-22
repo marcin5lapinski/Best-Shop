@@ -24,6 +24,10 @@
   align-items: center;
   justify-content: center;
   margin-top: 50px;
+
+  @media only screen and (max-width: 1050px) {
+    flex-direction: column;
+  }
 }
 
 .pricing__box {
@@ -33,6 +37,10 @@
   flex-direction: column;
   align-items: center;
   border: 1px solid $color-reddish;
+
+  @media only screen and (max-width: 1050px) {
+    margin-bottom: 40px;
+  }
 }
 
 .pricing__details {
@@ -103,6 +111,10 @@
   margin: 0 40px;
   box-shadow: 5px 1px 27px #07ACE629;
   border-color: #07ACE6;
+
+  @media only screen and (max-width: 1050px) {
+    margin-bottom: 40px;
+  }
 }
 
 .pricing__box--professional .pricing__type {

@@ -3,6 +3,10 @@
   display: flex;
   justify-content: center;
   margin-top: 100px;
+
+  @media only screen and (max-width: 1050px) {
+    margin-top: 50px;
+  }
 }
 
 .contact__column {
